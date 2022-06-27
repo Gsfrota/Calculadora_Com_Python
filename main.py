@@ -25,7 +25,7 @@ frame_body.grid(row = 1, column = 0)
 
 
 #Labels
-app_label = Label(frame_display, text="123456789", width=16,height=2)
+app_label = Label(frame_display, text="123456789", width=16,height=2, padx=7, relief=FLAT,anchor="e",justify=RIGHT, font=("Ivy 18"), bg=color3,fg= color2 )
 app_label.place(x=0,y=0)
 
 
