@@ -24,9 +24,12 @@ frame_body = Frame(window, width=235, height=268)
 frame_body.grid(row = 1, column = 0)
 
 
-#buttons
+#Labels
+app_label = Label(frame_display, text="123456789", width=16,height=2)
+app_label.place(x=0,y=0)
 
 
+#----buttons----
 #first line
 b_1 = Button(frame_body, text="C", width=11, height=2, bg=color4, font=("Ivy 13 bold"), relief = RAISED, overrelief = RIDGE) 
 b_1.place(x = 0, y = 0)
